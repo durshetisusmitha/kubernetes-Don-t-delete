@@ -1,3 +1,12 @@
 Docker is a software contanerization platform
 when docker containers are good why there is need of kubernetes
-in real time like flipkart and amazon serves can't handle the requests coming on weekends when compared to the requests coming on weekdays so every time scaling up servers for more requests and scaling down servers for less requests is not easy job so here comes auto scaling which can be done by kuberbnetes when traffic reaches threshold auto scaling happens of containers happens on its own there is no need of manual intervention still there comes a challenge you have so many containers but how will be the traffic distributing load balancers 
+in real time like flipkart and amazon serves can't handle the requests coming on weekends when compared to the requests coming on weekdays so every time scaling up servers for more requests and scaling down servers for less requests is not easy job so here comes auto scaling which can be done by kuberbnetes when traffic reaches threshold auto scaling happens of containers happens on its own there is no need of manual intervention still there comes a challenge you have so many containers but how will be the traffic distributing load balancers so we need something else to manage all the containers here comes kubernetes so what exactly kubernetes is a container management tool.
+problems with scaling up the containers.
+1-container could not communicate with each other
+2-containers had to be deployed appropriately
+3-containers had to be managed carefully
+4-auto scaling was not possible
+5-distributing traffic was still challenging
+kubernetes- A container management tool kubernetes is an open-source container management tool which automates conatiner deployment, container scaling and container load balancing
+
+
