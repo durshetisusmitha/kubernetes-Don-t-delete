@@ -1,4 +1,5 @@
-Docker is a software contanerization platform
+people misunderstand kubernetes is contaierization platform but not.
+Docker is a software contaierization platform
 when docker containers are good why there is need of kubernetes
 in real time like flipkart and amazon serves can't handle the requests coming on weekends when compared to the requests coming on weekdays so every time scaling up servers for more requests and scaling down servers for less requests is not easy job so here comes auto scaling which can be done by kuberbnetes when traffic reaches threshold auto scaling happens of containers happens on its own there is no need of manual intervention still there comes a challenge you have so many containers but how will be the traffic distributing load balancers so we need something else to manage all the containers here comes kubernetes so what exactly kubernetes is a container management tool.
 problems with scaling up the containers.
@@ -9,5 +10,14 @@ problems with scaling up the containers.
 5-distributing traffic was still challenging
 kubernetes- A container management tool kubernetes is an open-source container management tool which automates conatiner deployment, container scaling and container load balancing
 written in go lang
-can group no of container into one logical unit for managing and deploying them easily.
-
+kubernetes can group no of containers into one logical unit for managing and deploying them easily.
+Features of kubernetes
+1-automatic binpacking.
+2-service discovery and load balancing.
+3-storage orchestration.
+4-self healing.
+5-secret and configuration management.
+6-batch execution.
+7-horizontal scaling.
+8-automatic rollbacks and rollouts.
+ 
