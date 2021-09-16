@@ -8,5 +8,6 @@ problems with scaling up the containers.
 4-auto scaling was not possible
 5-distributing traffic was still challenging
 kubernetes- A container management tool kubernetes is an open-source container management tool which automates conatiner deployment, container scaling and container load balancing
-
+written in go lang
+can group no of container into one logical unit for managing and deploying them easily.
 
