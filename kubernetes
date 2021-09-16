@@ -1,1 +1,3 @@
-
+Docker is a software contanerization platform
+when docker containers are good why there is need of kubernetes
+in real time like flipkart and amazon serves can't handle the requests coming on weekends when compared to the requests coming on weekdays so every time scaling up servers for more requests and scaling down servers for less requests is not easy job so here comes auto scaling which can be done by kuberbnetes when traffic reaches threshold auto scaling happens of containers happens on its own there is no need of manual intervention still there comes a challenge you have so many containers but how will be the traffic distributing load balancers 
